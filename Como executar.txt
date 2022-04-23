@@ -1,0 +1,17 @@
+1- Descompacte os arquivos no c:\temp (por exemplo)
+2- Abra o console (cmd)
+3- Digite cd\temp
+
+4- Se for o caso, compile os fontes (javac *.java)
+OBS.: o java precisa estar nas variáveis de ambiente
+
+5- Inicia o rmiregistry (start rmiregistry)
+OBS.: se ocorrer erro, verifique se o rmiregistry encontra-se na pasta bin do java
+
+6- Execute o Servidor para registrar os objetos (start java Main)
+OBS.: caso o rmiregistry não esteja rodando irá ocorrer um erro
+
+7- Execute o cliente (java ClientServer)
+OBS.: pode ocorrer erro por conta do endereço do Servidor.
+
+
